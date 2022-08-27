@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            MY FIRST PAGE
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <h1>WELCOME TO MY PAGE</h1>
+        <marquee direction="right">THE BEST WAY TO GET SOMETHING DONE IS TO BEGIN </marquee>
+        <body>
+        
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Sign Up for free</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+          
+              <label for="fname">first name</label>
+              <input type="text" placeholder="first name" name="fname" required >
+              <br>
+              <br>              
+              <label for="lname">last name</label>
+              <input type="text" placeholder="your last name" name="lname" required >
+              <br>
+              <br>
+              <label for="uname">username</label>
+              <input type="text" placeholder="enter user name" name="uname" required >
+              <br>
+              <br>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+              <br>
+              <br>
+              <label for="psw-repeat"><b>conform Password</b></label>
+              <input type="password" placeholder="conform Password" name="psw-repeat" required>
+              <br>
+              <br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+                <br>
+                <br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>       
+                 <br>
+                 <br>     
+                <label for="Email">Email address</label>
+                <input type="email" id="inputemail">
+                <div >
+                <input type="checkbox" checked="checked" name="sign up" style="margin-bottom:15px"> sign up
+              </label>
+          
+              <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+          
+              <div class="clearfox">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+              </div>
+            </div>
+          </form>
+             
+        </body>
+</html>
